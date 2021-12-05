@@ -27,6 +27,7 @@ const Keyboard = () => {
   }, [])
 
   const onKeyboardButtonDown = (event: KeyboardEvent) => {
+    event.preventDefault()
     const title = event.code
     const button: HTMLButtonElement = document.querySelector(`[title="${title}"]`);
     button.click();
@@ -34,6 +35,7 @@ const Keyboard = () => {
   }
 
   const onKeyboardButtonUp = (event: KeyboardEvent) => {
+    event.preventDefault()
     const title = event.code
     const button: HTMLButtonElement = document.querySelector(`[title="${title}"]`);
     button.blur();
