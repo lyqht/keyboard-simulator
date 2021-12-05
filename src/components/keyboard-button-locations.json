@@ -2,221 +2,221 @@
     "row_1": [
         {
             "key": "`",
-            "eventCode": "Backquote"
+            "code": "Backquote"
         },
         {
             "key": "1",
-            "eventCode": "1"
+            "code": "Digit1"
         },
         {
             "key": "2",
-            "eventCode": "2"
+            "code": "Digit2"
         },
         {
             "key": "3",
-            "eventCode": "3"
+            "code": "Digit3"
         },
         {
             "key": "4",
-            "eventCode": "4"
+            "code": "Digit4"
         },
         {
             "key": "5",
-            "eventCode": "5"
+            "code": "Digit5"
         },
         {
             "key": "6",
-            "eventCode": "6"
+            "code": "Digit6"
         },
         {
             "key": "7",
-            "eventCode": "7"
+            "code": "Digit7"
         },
         {
             "key": "8",
-            "eventCode": "8"
+            "code": "Digit8"
         },
         {
             "key": "9",
-            "eventCode": "9"
+            "code": "Digit9"
         },
         {
             "key": "0",
-            "eventCode": "0"
+            "code": "Digit0"
         },
         {
             "key": "-",
-            "eventCode": "Minus"
+            "code": "Minus"
         },
         {
             "key": "=",
-            "eventCode": "Equal"
+            "code": "Equal"
         },
         {
-            "key": "<-",
-            "eventCode": "Backspace"
+            "key": "Backspace",
+            "code": "Backspace"
         }
     ],
     "row_2": [
         {
             "key": "Tab",
-            "eventCode": "Tab"
+            "code": "Tab"
         },
         {
             "key": "q",
-            "eventCode": "q"
+            "code": "KeyQ"
         },
         {
             "key": "w",
-            "eventCode": "w"
+            "code": "KeyW"
         },
         {
             "key": "e",
-            "eventCode": "e"
+            "code": "KeyE"
         },
         {
             "key": "r",
-            "eventCode": "r"
+            "code": "KeyR"
         },
         {
             "key": "t",
-            "eventCode": "t"
+            "code": "KeyT"
         },
         {
             "key": "y",
-            "eventCode": "y"
+            "code": "KeyY"
         },
         {
             "key": "u",
-            "eventCode": "u"
+            "code": "KeyU"
         },
         {
             "key": "i",
-            "eventCode": "i"
+            "code": "KeyI"
         },
         {
             "key": "o",
-            "eventCode": "o"
+            "code": "KeyO"
         },
         {
             "key": "p",
-            "eventCode": "p"
+            "code": "KeyP"
         },
         {
             "key": "[",
-            "eventCode": "BracketLeft"
+            "code": "BracketLeft"
         },
         {
             "key": "]",
-            "eventCode": "BracketRight"
+            "code": "BracketRight"
         },
         {
             "key": "\\",
-            "eventCode": "Backslash"
+            "code": "Backslash"
         }
     ],
     "row_3": [
         {
-            "key": "Caps",
-            "eventCode": "CapsLock"
+            "key": "CapsLock",
+            "code": "CapsLock"
         },
         {
             "key": "a",
-            "eventCode": "a"
+            "code": "KeyA"
         },
         {
             "key": "s",
-            "eventCode": "s"
+            "code": "KeyS"
         },
         {
             "key": "d",
-            "eventCode": "d"
+            "code": "KeyD"
         },
         {
             "key": "f",
-            "eventCode": "f"
+            "code": "KeyF"
         },
         {
             "key": "g",
-            "eventCode": "g"
+            "code": "KeyG"
         },
         {
             "key": "h",
-            "eventCode": "h"
+            "code": "KeyH"
         },
         {
             "key": "j",
-            "eventCode": "j"
+            "code": "KeyJ"
         },
         {
             "key": "k",
-            "eventCode": "k"
+            "code": "KeyK"
         },
         {
             "key": "l",
-            "eventCode": "l"
+            "code": "KeyL"
         },
         {
             "key": ";",
-            "eventCode": "Semicolon"
+            "code": "Semicolon"
         },
         {
             "key": "'",
-            "eventCode": "Quote"
+            "code": "Quote"
         },
         {
             "key": "Enter",
-            "eventCode": "Enter"
+            "code": "Enter"
         }
     ],
     "row_4": [
         {
             "key": "Shift",
-            "eventCode": "ShiftLeft"
+            "code": "ShiftLeft"
         },
         {
             "key": "z",
-            "eventCode": "z"
+            "code": "KeyZ"
         },
         {
             "key": "x",
-            "eventCode": "x"
+            "code": "KeyX"
         },
         {
             "key": "c",
-            "eventCode": "c"
+            "code": "KeyC"
         },
         {
             "key": "v",
-            "eventCode": "v"
+            "code": "KeyV"
         },
         {
             "key": "b",
-            "eventCode": "b"
+            "code": "KeyB"
         },
         {
             "key": "n",
-            "eventCode": "n"
+            "code": "KeyN"
         },
         {
             "key": "m",
-            "eventCode": "m"
+            "code": "KeyM"
         },
         {
             "key": ",",
-            "eventCode": "Comma"
+            "code": "Comma"
         },
         {
             "key": ".",
-            "eventCode": "Period"
+            "code": "Period"
         },
         {
             "key": "/",
-            "eventCode": "Slash"
+            "code": "Slash"
         },
         {
             "key": "Shift",
-            "eventCode": "ShiftRight"
+            "code": "ShiftRight"
         }
     ]
 }

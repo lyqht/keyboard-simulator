@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* @import "open-props/animations"; */
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+}
 
 #keyboard {
     --num-rows: 5;
@@ -17,10 +27,6 @@
 
     display: grid;
     grid-template-rows: repeat(1fr, var(--num-rows));
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5vw;
-    text-transform: uppercase;
-    font-weight: 900;
 
     background: var(--keyboard-bg-color);
     border-radius: var(--keyboard-border-radius);
@@ -28,6 +34,10 @@
     width: 90vw;
     padding: var(--keyboard-padding);
     margin: 24px;
+
+    /* animation: var(--animation-fade-in) forwards, var(--animation-slide-in-up);
+    animation-timing-function: var(--ease-squish-3);
+    animation-duration: 1s; */
 }
 
 .keyboard-row {
@@ -38,6 +48,11 @@
     display: grid;
     flex-grow: 1;
     place-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-transform: uppercase;
     padding: var(--keyboard-button-padding);
     margin: var(--keyboard-button-margin);
     color: var(--keyboard-button-letter-color);
@@ -45,6 +60,21 @@
     box-shadow: var(--keyboard-button-shadow);
     background-color: var(--keyboard-button-bg-color);
 }
+
+.keyboard-button:hover {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 0.1);
+}
+
+.keyboard-button:active,
+.keyboard-button:focus {
+    box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
+}
+
+/* .jiggle {
+    animation:
+        var(--animation-shake-y),
+        var(--animation-shake-x),
+} */
 
 .keyboard-word-button {
     color: var(--keyboard-button-word-color);
