@@ -1,0 +1,222 @@
+{
+    "row_1": [
+        {
+            "key": "`",
+            "eventCode": "Backquote"
+        },
+        {
+            "key": "1",
+            "eventCode": "1"
+        },
+        {
+            "key": "2",
+            "eventCode": "2"
+        },
+        {
+            "key": "3",
+            "eventCode": "3"
+        },
+        {
+            "key": "4",
+            "eventCode": "4"
+        },
+        {
+            "key": "5",
+            "eventCode": "5"
+        },
+        {
+            "key": "6",
+            "eventCode": "6"
+        },
+        {
+            "key": "7",
+            "eventCode": "7"
+        },
+        {
+            "key": "8",
+            "eventCode": "8"
+        },
+        {
+            "key": "9",
+            "eventCode": "9"
+        },
+        {
+            "key": "0",
+            "eventCode": "0"
+        },
+        {
+            "key": "-",
+            "eventCode": "Minus"
+        },
+        {
+            "key": "=",
+            "eventCode": "Equal"
+        },
+        {
+            "key": "<-",
+            "eventCode": "Backspace"
+        }
+    ],
+    "row_2": [
+        {
+            "key": "Tab",
+            "eventCode": "Tab"
+        },
+        {
+            "key": "q",
+            "eventCode": "q"
+        },
+        {
+            "key": "w",
+            "eventCode": "w"
+        },
+        {
+            "key": "e",
+            "eventCode": "e"
+        },
+        {
+            "key": "r",
+            "eventCode": "r"
+        },
+        {
+            "key": "t",
+            "eventCode": "t"
+        },
+        {
+            "key": "y",
+            "eventCode": "y"
+        },
+        {
+            "key": "u",
+            "eventCode": "u"
+        },
+        {
+            "key": "i",
+            "eventCode": "i"
+        },
+        {
+            "key": "o",
+            "eventCode": "o"
+        },
+        {
+            "key": "p",
+            "eventCode": "p"
+        },
+        {
+            "key": "[",
+            "eventCode": "BracketLeft"
+        },
+        {
+            "key": "]",
+            "eventCode": "BracketRight"
+        },
+        {
+            "key": "\\",
+            "eventCode": "Backslash"
+        }
+    ],
+    "row_3": [
+        {
+            "key": "Caps",
+            "eventCode": "CapsLock"
+        },
+        {
+            "key": "a",
+            "eventCode": "a"
+        },
+        {
+            "key": "s",
+            "eventCode": "s"
+        },
+        {
+            "key": "d",
+            "eventCode": "d"
+        },
+        {
+            "key": "f",
+            "eventCode": "f"
+        },
+        {
+            "key": "g",
+            "eventCode": "g"
+        },
+        {
+            "key": "h",
+            "eventCode": "h"
+        },
+        {
+            "key": "j",
+            "eventCode": "j"
+        },
+        {
+            "key": "k",
+            "eventCode": "k"
+        },
+        {
+            "key": "l",
+            "eventCode": "l"
+        },
+        {
+            "key": ";",
+            "eventCode": "Semicolon"
+        },
+        {
+            "key": "'",
+            "eventCode": "Quote"
+        },
+        {
+            "key": "Enter",
+            "eventCode": "Enter"
+        }
+    ],
+    "row_4": [
+        {
+            "key": "Shift",
+            "eventCode": "ShiftLeft"
+        },
+        {
+            "key": "z",
+            "eventCode": "z"
+        },
+        {
+            "key": "x",
+            "eventCode": "x"
+        },
+        {
+            "key": "c",
+            "eventCode": "c"
+        },
+        {
+            "key": "v",
+            "eventCode": "v"
+        },
+        {
+            "key": "b",
+            "eventCode": "b"
+        },
+        {
+            "key": "n",
+            "eventCode": "n"
+        },
+        {
+            "key": "m",
+            "eventCode": "m"
+        },
+        {
+            "key": ",",
+            "eventCode": "Comma"
+        },
+        {
+            "key": ".",
+            "eventCode": "Period"
+        },
+        {
+            "key": "/",
+            "eventCode": "Slash"
+        },
+        {
+            "key": "Shift",
+            "eventCode": "ShiftRight"
+        }
+    ]
+}

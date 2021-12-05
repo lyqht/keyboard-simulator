@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon';
+import Keyboard from '../components/Keyboard.tsx'
 let title = 'Keyboard';
 ---
 <html lang="en">
@@ -11,13 +12,14 @@ let title = 'Keyboard';
     
     <link rel="stylesheet" href={Astro.resolve('../styles/global.css')}>
     <link rel="stylesheet" href={Astro.resolve('../styles/home.css')}>
+    <link rel="stylesheet" href={Astro.resolve('../styles/keyboard.css')}>
 
     <style>
         header {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             gap: 1em;
-            max-width: min(100%, 68ch);
         }
 
         [astro-icon] {
@@ -31,12 +33,11 @@ let title = 'Keyboard';
         <header>
             <div>
                 <Icon name="keyboard" />
-                <h1>The keyboard simulator app</h1>
+                <h1>Keyboard simulator app</h1>
             </div>
         </header>
+    </main>    
+    <Keyboard client:only />
 
-
-
-    </main>
 </body>
 </html>
