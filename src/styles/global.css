@@ -1,3 +1,5 @@
+@import url('https://unpkg.com/open-props@1.0.11/open-props.min.css');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,15 +16,17 @@ body {
   padding: 4rem 2rem;
   width: 100%;
   min-height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   background: #f9fafb;
   color: #111827;
 }
 
+
 @media (prefers-color-scheme: dark) {
   body {
-    background: #111827;
+    background: var(--gradient-23);
     color: #fff;
   }
 }

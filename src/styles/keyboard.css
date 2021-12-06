@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://unpkg.com/open-props@1.0.11/open-props.min.css');
 
 button {
     background: none;
@@ -13,8 +12,8 @@ button {
 #keyboard {
     --num-rows: 5;
     --keyboard-bg-color: #F6F6F6;
-    --keyboard-button-word-color: #868888;
-    --keyboard-button-letter-color: #60C1B6;
+    --keyboard-button-word-color: #616161;
+    --keyboard-button-letter-color: #008071;
     --keyboard-button-bg-color: #FFFFFF;
 
     --keyboard-button-shadow: 0 2px 15px rgb(0 0 0 / 0.05);
@@ -38,6 +37,8 @@ button {
     animation: var(--animation-fade-in) forwards, var(--animation-slide-in-down);
     animation-timing-function: var(--ease-squish-3);
     animation-duration: 1s;
+
+    box-shadow: var(--shadow-3);
 }
 
 .keyboard-row {
@@ -70,13 +71,35 @@ button {
     box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
 }
 
-.jiggle {
-    /* animation: var(--animation-bounce); */
+.jiggle,
+.jiggle.keyboard-word-button {
     animation: var(--animation-shake-x);
     animation-timing-function: var(--ease-squish-1);
     animation-iteration-count: infinite;
+    background: var(--gradient-4);
+    color: #F6F6F6;
 }
 
 .keyboard-word-button {
     color: var(--keyboard-button-word-color);
+}
+
+p {
+    margin-block-start: 12px;
+    text-align: center;
+}
+
+#hint-text {
+    animation: var(--animation-shake-x);
+    animation-timing-function: var(--ease-squish-1);
+    animation-iteration-count: 3;
+}
+
+#streak-counter {
+    position: absolute;
+    bottom: 10vh;
+    right: 10vw;
+    border-width: var(--border-size-1);
+    border-color: var(--yellow-6);
+    color: var(--yellow-2);
 }
