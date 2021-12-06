@@ -70,11 +70,12 @@ button {
     box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
 }
 
-/* .jiggle {
-    animation:
-        var(--animation-shake-y),
-        var(--animation-shake-x),
-} */
+.jiggle {
+    /* animation: var(--animation-bounce); */
+    animation: var(--animation-shake-x);
+    animation-timing-function: var(--ease-squish-1);
+    animation-iteration-count: infinite;
+}
 
 .keyboard-word-button {
     color: var(--keyboard-button-word-color);
