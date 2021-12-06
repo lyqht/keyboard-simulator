@@ -1,11 +1,13 @@
 import { useEffect, useState, StateUpdater } from 'preact/hooks'
 import KeyboardRows, { KeyboardKey, getRandomKey } from './KeyboardRows';
+import "preact/debug"
 
 const getButtonElement = (code: string): HTMLButtonElement => {
   return document.querySelector(`[title="${code}"]`);
 }
 
 const Keyboard = () => {
+  const [streak, setStreak] = useState(0);
   const [jiggleKey, setJiggleKey]: [KeyboardKey, StateUpdater<KeyboardKey>] = useState(getRandomKey());
   const makeKeyboardButtonJiggle = (buttonToJiggle: HTMLButtonElement) => {
     buttonToJiggle.classList.add("jiggle")
@@ -48,7 +50,14 @@ const Keyboard = () => {
     buttonToJiggle.classList.remove("jiggle")
     buttonToJiggle.removeEventListener("keyup", onJiggleKeyUp)
     setJiggleKey(getRandomKey())
+    setStreak(streak + 1)
   }
+
+  const StreakCounter = () => (
+    <div id="streak-counter">
+      Streak: {streak}
+    </div>
+  )
 
   return (
     <>
@@ -56,6 +65,7 @@ const Keyboard = () => {
       <div id="keyboard">
         <KeyboardRows />
       </div>
+      <StreakCounter />
     </>
   );
 };
