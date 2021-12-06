@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-/* @import "open-props/animations"; */
+@import url('https://unpkg.com/open-props@1.0.11/open-props.min.css');
 
 button {
     background: none;
@@ -35,9 +35,9 @@ button {
     padding: var(--keyboard-padding);
     margin: 24px;
 
-    /* animation: var(--animation-fade-in) forwards, var(--animation-slide-in-up);
+    animation: var(--animation-fade-in) forwards, var(--animation-slide-in-down);
     animation-timing-function: var(--ease-squish-3);
-    animation-duration: 1s; */
+    animation-duration: 1s;
 }
 
 .keyboard-row {
